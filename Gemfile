@@ -5,6 +5,9 @@ gem 'rails', '4.0.4'
 
 gem 'rails_12factor', group: :production
 
+group :development, :test do
+  gem 'rspec-rails', '~> 3.0'
+end
 # Use postgresql as the database for Active Record
 gem 'pg'
 
